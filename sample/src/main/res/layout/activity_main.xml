@@ -37,7 +37,7 @@
             android:layout_margin="5dp"
             app:divider="@drawable/toggle_divider"
             app:exclusive="true"
-            app:orientation="horizontal"
+            app:alignment="horizontal"
             app:allowUnselected="false">
 
             <androidx.appcompat.widget.ToggleButton
@@ -82,7 +82,7 @@
             android:layout_margin="5dp"
             app:backgroundColor="@color/toggle_off"
             app:divider="@drawable/light_divider"
-            app:orientation="horizontal"
+            app:alignment="horizontal"
             app:allowUnselected="true">
 
             <androidx.appcompat.widget.ToggleButton
@@ -155,7 +155,7 @@
             android:layout_below="@+id/labelOrientation"
             android:layout_margin="5dp"
             app:backgroundColor="@color/toggle_off"
-            app:orientation="horizontal"
+            app:alignment="horizontal"
             app:exclusive="true">
 
             <androidx.appcompat.widget.ToggleButton
@@ -189,7 +189,7 @@
             android:layout_margin="5dp"
             app:backgroundColor="@color/toggle_off"
             app:exclusive="true"
-            app:orientation="horizontal">
+            app:alignment="horizontal">
 
             <androidx.appcompat.widget.ToggleButton
                 android:id="@+id/buttonExclusive"

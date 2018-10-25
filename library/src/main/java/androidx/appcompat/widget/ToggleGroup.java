@@ -90,7 +90,7 @@ public class ToggleGroup extends LinearLayoutCompat
         TypedArray attributes = context.obtainStyledAttributes(
                 attrs, R.styleable.ToggleGroup, defStyleAttr, R.style.Widget_Material_ToggleGroup);
 
-        final int index = attributes.getInt(R.styleable.ToggleGroup_orientation, HORIZONTAL);
+        final int index = attributes.getInt(R.styleable.ToggleGroup_alignment, HORIZONTAL);
         //noinspection WrongConstant
         setOrientation(index);
 
